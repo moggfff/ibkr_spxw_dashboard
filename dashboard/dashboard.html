@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <title>IBKR SPXW Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <h1>IBKR SPXW Dashboard</h1>
+    <div class="controls">
+      <button onclick="action('ping')">اختبار اتصال IBKR</button>
+      <button onclick="action('start')">بدء الفحص</button>
+      <button onclick="action('stop')">إيقاف الفحص</button>
+    </div>
+    <div id="status"></div>
+    <h2>آخر إشارات</h2>
+    <pre id="signals"></pre>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>

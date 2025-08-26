@@ -1,0 +1,32 @@
+{
+  "mode": "BOTH",
+  "poll_secs": 5,
+  "telegram": {
+    "enabled": true,
+    "bot_token": "8289640455:AAF7He0c8SeWKjfft0wdWQ7ECKj34y9Hh6A",
+    "chat_id": "8235897299"
+  },
+  "ibkr": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 4001,
+    "client_id": 9,
+    "paper_trading": true
+  },
+  "analysis": {
+    "equities": true,
+    "spxw": true,
+    "rsi_period": 14,
+    "rsi_overbought": 70,
+    "rsi_oversold": 30,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "delta_min": 0.15,
+    "delta_max": 0.35
+  },
+  "paths": {
+    "signals_csv": "signals/unified_signals_template.csv",
+    "log_file": "trader.log"
+  }
+}
