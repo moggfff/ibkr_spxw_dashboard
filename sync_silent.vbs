@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "cmd /c ""C:\Users\TOSHIBA\Desktop\fax\ibkr_spxw_dashboard\sync.bat""", 0, False
